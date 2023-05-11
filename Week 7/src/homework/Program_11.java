@@ -10,11 +10,12 @@ import java.util.Scanner;
 * */
 public class Program_11 {
 
-    public static void main(String[] args) {
-        cityName();
+    public static void main(String[] args)
+    {
+       new Program_11().cityName();
     }
 
-    public static void cityName(){
+    public void cityName(){
 
         System.out.println("Enter signal character A to F and print city name: ");
         Scanner sc = new Scanner(System.in);

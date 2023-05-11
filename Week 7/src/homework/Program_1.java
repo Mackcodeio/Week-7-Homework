@@ -9,18 +9,16 @@ import java.util.Scanner;
 * */
 public class Program_1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         new Program_1().EvenOdd();
     }
 
     public void EvenOdd(){
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter any numeric number: ");
 
-        //        while(!sc.hasNextInt() || (sc.nextInt() < 0) || (sc.nextDouble() < 0.0)){
-        while(!sc.hasNextInt()){
-
+        //  while(!sc.hasNextInt() || (sc.nextInt() < 0) || (sc.nextDouble() < 0.0)){
+        while(!sc.hasNextInt() ){
             System.out.println("Invalid Entry");
             System.out.println("Please Enter only numeric digit number");
             System.out.println("-------------------------------------------------");

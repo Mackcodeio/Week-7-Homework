@@ -22,20 +22,20 @@ public class Program_4 {
         String java= "Java";
 
         if (group_name.equalsIgnoreCase(post)) {
-            System.out.println("Welcome to our Postman Family study group");
-            System.out.println("Please text to Punamben Makvana he is admin of the group.");
+            System.out.println("Welcome to our Postman Family study group.");
+            System.out.println("Please contact to Punamben Makvana. she is admin of the group.");
 
         } else if (group_name.equalsIgnoreCase(selenium)) {
-            System.out.println("Please join Selenium group");
-            System.out.println("Please text to Mahesh Hirpara he is admin of the group.");
+            System.out.println("Please join Selenium group.");
+            System.out.println("Please text to Mahesh Hirpara. He is admin of the group.");
 
         } else if (group_name.equalsIgnoreCase(java)){
-            System.out.println("Please join Java group...");
+            System.out.println("Please join Java group.");
             System.out.println("Please text to Nimit Patel he is admin of the group.");
 
         } else{
             System.out.println("This is not any group existing....");
-            System.out.println("Thank you very much for Visitig Testing study the group.");
+            System.out.println("Thank you very much for Visitig Testing Class.");
         }
     }
 }

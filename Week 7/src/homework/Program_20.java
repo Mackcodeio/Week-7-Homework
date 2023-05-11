@@ -3,6 +3,7 @@ package homework;
 import java.util.Arrays;
 
 // 20. Write a Java program to sort a numeric array and a string array.
+
 public class Program_20 {
 
     public static void main(String[] args) {

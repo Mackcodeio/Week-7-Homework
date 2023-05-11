@@ -1,7 +1,7 @@
 package homework;
 
 /*
-    14. Write a java program to print the numbers between 1 to 100 which can be divided by 3and
+    14. Write a java program to print the numbers between 1 to 100 which can be divided by 3 and
         5 separately.
 * */
 public class Program_14 {

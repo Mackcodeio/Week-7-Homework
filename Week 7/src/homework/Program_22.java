@@ -3,6 +3,7 @@ package homework;
 import java.util.Arrays;
 
 // 22. Write a Java program to calculate the average value of array elements.
+
 public class Program_22 {
     public static void main(String[] args) {
         new Program_22().avgOfArray();

@@ -28,7 +28,4 @@ public class Program_15 {
         else
             System.out.println(" Special Character ");
     }
-
-    // Driver Code
-
 }

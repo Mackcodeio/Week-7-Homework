@@ -3,6 +3,7 @@ package homework;
 import java.util.Arrays;
 
 // 21. Write a Java program to sum values of an array.
+
 public class Program_21 {
 
     public static void main(String[] args) {

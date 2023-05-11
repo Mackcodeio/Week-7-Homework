@@ -1,5 +1,7 @@
 package homework;
 
+// NOTES : Question to big so I didn't put here.
+
 public class Program_17_Person {
 
     String firstName;

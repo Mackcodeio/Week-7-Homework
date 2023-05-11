@@ -15,10 +15,10 @@ import java.util.Scanner;
 public class Program_10 {
 
     public static void main(String[] args) {
-        my_total_salary();
+        new Program_10().my_total_salary();
     }
 
-   public static void my_total_salary(){
+   public void my_total_salary(){
 
        Scanner sc = new Scanner(System.in);
 

@@ -1,5 +1,9 @@
 package homework;
 
+/*
+    7. Write a java program to input any number and find out if it’s odd or even.
+
+* */
 import java.util.Scanner;
 
 /*
