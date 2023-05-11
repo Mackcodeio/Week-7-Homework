@@ -1,2 +1,5 @@
-package homework;public class Program_6 {
+package homework;
+
+public class Program_6 {
+
 }
