@@ -20,6 +20,8 @@ public class Program_5 {
         System.out.println("Enter marks for Maths: "); // asking user to put Maths marks
         int mths = s.nextInt();
 
+
+        //while (mths >= 0 && mths <= 100)
         //Check statement of Maths marks
         if (mths >= 0 && mths <= 100) {
             System.out.println("Mathe's marks: "+mths);
@@ -28,7 +30,7 @@ public class Program_5 {
                 System.out.println("Enter valid marks between 0 to 100");
                 System.out.println("Enter marks for Maths:");
                 mths = s.nextInt();
-            }while (mths<0);
+            }while (mths < 0 || mths > 100);
         }
 
         System.out.println("Enter marks for English : "); // asking user to put Maths marks
@@ -41,7 +43,7 @@ public class Program_5 {
                 System.out.println("Enter valid marks between 0 to 100");
                 System.out.println("Enter marks for English:");
                 eng = s.nextInt();
-            }while (eng<0);
+            }while (eng < 0 || eng > 100);
         }
 
         System.out.println("Enter marks for Science : "); // asking user to put Science marks
@@ -55,7 +57,7 @@ public class Program_5 {
                 System.out.println("Enter valid marks between 0 to 100");
                 System.out.println("Enter marks for Science:");
                 sci = s.nextInt();
-            }while (sci<0);
+            }while (sci < 0 || sci > 100);
         }
 
 
